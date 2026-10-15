@@ -60,10 +60,6 @@ EOF
 systemctl restart docker
 
 
-# Install Tailscale
-log_info "Installing Tailscale..."
-curl -fsSL https://tailscale.com/install.sh | sh
-
 # Install TLDR
 log_info "Installing TLDR..."
 apt-get install -y pipx
