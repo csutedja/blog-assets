@@ -14,7 +14,7 @@ apt-get update --fix-missing
 # Essential CLI packages (not in default Debian minimal install)
 apt-get install -y \
     git htop sysstat tree bind9-dnsutils jq unzip \
-    lsb-release software-properties-common
+    lsb-release 
 
 # Disable DE
 systemctl set-default multi-user.target 2>/dev/null || true
